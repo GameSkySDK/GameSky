@@ -1,0 +1,152 @@
+/* 
+  AL_Language.strings
+  GamesSkyWorkSpace
+
+  Created by xiaofeng xiao on 2017/7/13.
+  Copyright © 2017年 xiaofeng xiao. All rights reserved.
+*/
+"-11315"="Parameter Error";//"参数错误";
+//#--------用户相关返回码(10000~19999)--------
+//#通用
+"-10001"="User is not logged in";//"用户未登录";
+"-10002"="Parameter Error";//"参数错误";
+//#更新个人信息
+"-11101"="Insufficient Parameters";//"缺少必要的参数";
+"-11102"="Invalid Username";//"用户名不合法";
+"-11103"="Registration failed, Please try again later";//"注册失败，稍后重试";
+"-11104"="Length Error";//"firstname长度错误";
+"-11105"="Length Error";//"lastname长度错误";
+"-11106"="Zip Code Format Error";//"邮政编码格式错误";
+"-11107"="Phone Number Format Error";//"电话号码格式错误";
+"-11108"="City Format Error";//"城市格式错误";
+"-11109"="Address Format Error";//"地址格式错误";
+"-11110"="User Name Already Exists";//"用户名已存在";
+"-11111"="Game ID error or game removed";//"游戏id错误或游戏已下架";
+"-11112"="The same IP is limited to regiter up to 3 Accounts within 10 minutes";//"同一IP10分钟内最多注册3个账号";
+"-11113"="The same device is limited to regiter up to 3 accounts within 10 minutes";//"同一设备10分钟内最多注册3个账号";
+"-11114"="Invalid Firstname";//"非法的姓";
+"-11115"="Invalid Lastname";//"非法的名";
+"-11116"="Phone Number Length Error";//"电话号码长度错误";
+"-11117"="Phone Number Format Error";//"电话号码格式错误";
+"-11118"="Duplicate, Previous request is in proceccing";//"重复提交，前一个请求正在处理中";
+
+//#登录
+"-11200"="Invalid Password";//"用户密码错误";
+"-11201"="Invalid Accnout Name";//"用户不存在";
+"-11202"="Invalid Password，you have two more times to try";//"密码错误，剩余尝试次数2";
+"-11203"="Invalid Password，you have one more time to try";//"密码错误，剩余尝试次数1";
+"-11204"="Account temporarily locked due to too many failed login attempts";//"密码错误过多，账户暂时锁定";
+"-11205"="Login failed, please try again later";//"登录失败，稍后重试";
+
+//#绑定邮箱和上传图片
+"-11300"="Invalid User Information (uid and ck are not the same )";//"用户信息无效(uid和ck不一致)";
+"-11301"="Invalid Country Information";//"国家信息无效";
+"-11302"="Account fails to be linked with Email";//"账号绑定邮箱失败";
+"-11303"="Email address is already in use";//"邮箱已被使用";
+"-11304"="Email Format Error";//"邮箱格式错误";
+"-11305"="Real-money Account Creation failed";//"创建真钱账户失败";
+"-11306"="No Old Password";//"无旧密码";
+"-11307"="No New Password";//"无新密码";
+"-11308"="New password must be different from old one";//"新旧密码相同";
+"-11309"="Invalid Old Password";//"旧密码错误";
+"-11310"="Inconsistent Password";//"两次密码不一致";
+"-11311"="User Profile picture does not exist";//"用户头像不存在";
+"-11312"="User profile picture size exceeds limit";//"用户头像大小超过限制";
+"-11313"="Not Image";//"文件非图片";
+"-11314"="User profile picture not supported";//"头像图片格式不支持";
+"-11315"="User profile picture unloading failed";//"头像图片上传失败";
+"-11317"="User has not linked with Email";//"用户未绑定邮箱";
+//#验证邮箱
+"-11326"="Email Format Error";//"邮箱格式错误";
+"-11327"="Username not exist";//"用户不存在";
+"-11328"="Your Email has been Verified";//"邮箱已验证";
+"-11329"="Email Delivery Failure";//"邮件发送失败";
+
+//#已经领取过金币
+"-11400"="Coins has already been claimed";//"已经领取过金币";
+//#PUSH推送
+"-11500"="Push Signature Error";//"push推送签名错误";
+"-11501"="User not found";//"未发现可推送用户";
+"-11502"="Exeeding limit, up to 1000";//"超过限制，最多1000个";
+"-11503"="Push Delivery Failure";//"push发送失败";
+//#--------帐务相关返回码(20000~29999)--------
+"-20001"="Parameter Exception";//"参数异常";
+"-21100"="Invalid Amount";//"金额非法";
+"-21101"="Transaction Type Error";//"交易类型错误";
+"-21102"="User does not exist";//"用户不存在";
+"-21103"="Updating User's amount failed";//"更新用户金额失败";
+"-21104"="Insufficient Balance";//"余额不足";
+"-21105"="Paylog Insert Failed";//"流水插入失败";
+"-21106"="Frozen Record Insert Failed";//"冻结记录插入失败";
+"-21107"="Frozen record does not exist";//"冻结记录不存在";
+"-21108"="Failed to initialize account";//"初始化账户失败";
+"-21109"="User account already exists";//"用户账户已存在";
+
+//#系统内部问题
+"-22000"="Order exists without paylog";//"订单存在，查不到流水";
+//#--------赛事对战相关返回码(40000~49999)--------
+//#余额不足
+"-40001"="Insufficient Balance";//"余额不足";
+//#缺少必要参数
+"-40002"="Insufficient Parameters";//"缺少参数";
+//#获取不到赛事id
+"-40003"="Failed to accquire match ID";//"获取赛事id失败";
+//#获取不到地理位置
+"-40004"="Failed to get location";//"获取不到地理位置";
+//#地区不支持真钱游戏
+"-40005"="This region does not allow real-money games";//"地区不支持真钱游戏";
+//#没有该用户的对战信息
+"-40006"="No battle information for the player";//"没有该用户的对战信息";
+//#入场费错误
+"-40007"="Entry Fee Error";//"入场费错误";
+//#用户对战id错误
+"-40008"="Player Battle ID Error";//"用户对战id错误";
+//#用户赛事id或轮次错误
+"-40009"="Player Match ID or Round Error";//"用户赛事id或轮次错误";
+//#已经提交过分数
+"-40010"="Scores have been submitted";//"已经提交过分数";
+"-40011"="Refund Failure";//"返款失败";
+
+"-30000"="Payment failed";//"支付交易失败";
+"-30001"="Payment Interface Database Operation Error";//"支付接口数据库操作出错";
+"-30002"="Payment Query Interface failed";//"支付查询接口失败";
+"-30003"="Payment Interface Incoming Gateway Error";//"支付接口传入网关错误";
+"-30009"="Payment Interface Exception";//"支付接口异常";
+"-30010"="Payment API Query Failed, No Interface Data";//"支付API查询失败,接口无数据";
+"-30011"="Status or Amount does not match in Payment API Query";//"支付API查询出的状态或者金额不匹配";
+"-30012"="Payment API Query Error Exception";//"支付API查询报错异常";
+"-30013"="Payment Order No. Length Error";//"支付订单号格式长度不对";
+"-30014"="Payment Signature Verification Error";//"支付验证签名错误";
+"-30015"="Payment Asynchronous Launch Failure";//"支付异步发起失败";
+"-30016"="Payment password Setting Failure";//"设置支付密码失败";
+"-30017"="Payment Password Setting Exception";//"设置支付密码异常";
+"-30017"="Payment Password Verification Failure";//"检验支付密码失败";
+"-30018"="Payment Parameter Error";//"支付参数错误";
+"-30019"="Payment password already exists";//"支付密码已经存在";
+"-30020"="Payment Binding Failure";//"绑定支付方式失败";
+"-30021"="Payment Processing";//"NOTIFY支付处理";
+"-30022"="User does not exist";//"用户不存在";
+
+"-35000"="Withdrawal failure status";//"提款失败状态";
+"-35001"="Withdrawal parameter perfication failed";//"提款参数检查不通过";
+"-35002"="Withdrawal inserting into database error";//"提款插入数据库错误";
+"-35003"="Withdrawal Freeze Error";//"提款冻结错误";
+"-35004"="Withdrawal Exception Error";//"提款异常错误";
+"-35005"="Binding Bank Card Failure";//"绑定提款卡失败";
+"-35006"="Removing Bank Card Failure";//"删除提款银行卡失败";
+"-35007"="Setting Default Bank Card Failure";//"设置缺省提款银行卡失败";
+"-35008"="Verifying Signature Failure";//"检验签名失败";
+
+"-35009"="The minimum amount you withdraw should be 10 U.S. dollars."; //#提款金额不能少于10美元
+"-35010"="The postcode is required"; //提款邮编不能为空
+"-35011"="The country is required";  //提款国家不能为空
+"-35012"="The city is required";  //提款城市不能为空
+"-35013"="The address is required"; //提款地址不能为空
+"-35014"="The province/state is required"; //提款省州不能为空
+"-35015"="The phone number is required"; //提款电话不能为空
+"-35016"="Invalid uid"; //提款用户uid错误
+"-35017"="Invalid game source "; //提款游戏来源错误
+"-35018"=" Verified image is required"; //提款实名认证图片不能为空
+
+
+
